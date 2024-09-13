@@ -1,0 +1,18 @@
+.header {
+  background-color: rgba(16, 157, 227, 0.888);
+  color: whitesmoke;
+  text-align: center;
+  padding: 3vh 0vh 3vh 0vh;
+  font-weight: bold;
+  box-shadow: 2 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item{
+  margin: 50px;
+}
+
+@media(max-width:320px){
+  .item{
+    margin: 10px;
+  }
+}

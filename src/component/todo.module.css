@@ -1,0 +1,46 @@
+.body {
+  background-color: rgb(235, 234, 234);
+}
+
+.form {
+  text-align: center;
+  padding: 5vh 0vh 5vh 0vh;
+}
+
+.input {
+  border: 3px solid rgb(196, 180, 180);
+  padding: 2vh 5vh 2vh 5vh;
+  font-size: x-large;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.add {
+  background-color: whitesmoke;
+  padding: 22px 5vh 18px 5vh;
+  border: 0px solid black;
+  background-color: rgba(16, 157, 227, 0.888);
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: large;
+}
+
+@media (max-width:320px){
+  .input{
+    border: 3px solid rgb(196, 180, 180);
+    padding: 1vh 2vh 1vh 2vh;
+    font-size: large;
+  }
+  .add {
+    background-color: whitesmoke;
+    padding: 10px 3vh 10px 3vh;
+    border: 0px solid black;
+    background-color: rgba(16, 157, 227, 0.888);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 2%;
+  }
+}

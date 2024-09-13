@@ -1,0 +1,9 @@
+.header {
+  background-color: rgba(16, 157, 227, 0.888);
+  color: whitesmoke;
+  text-align: center;
+  padding: 3vh 0vh 3vh 0vh;
+  margin-top: -7px;
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
